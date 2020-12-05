@@ -9,7 +9,7 @@ import Post from "../components/Post"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
+    <h1>Code Blog with Gatsby Js</h1>
     <Row>
       <Col md="8">
         <StaticQuery
