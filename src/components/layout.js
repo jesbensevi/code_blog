@@ -10,6 +10,7 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
+import Footer from "../components/Footer"
 import "../styles/index.scss"
 
 const Layout = ({ children }) => {
@@ -25,18 +26,14 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <script
+        src="https://kit.fontawesome.com/f13b5d5d8f.js"
+        crossOrigin="anonymous"
+      ></script>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div className="container" id="content">
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
+        <Footer></Footer>
       </div>
     </>
   )
