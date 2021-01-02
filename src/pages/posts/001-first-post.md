@@ -2,7 +2,6 @@
 title: "First Post - Introduction"
 date: "2020-11-16 00:02:00"
 author: "Jesben Sevillano"
-path: "/first-post"
 image: "../../images/javascript.jpg"
 tags:
   - code

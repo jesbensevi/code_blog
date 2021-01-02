@@ -4,7 +4,6 @@ const Footer = () => (
   <div className="site-footer">
     <h4 className="text-center">Code Blog</h4>
     <p className="text-center">Follow us on social media</p>
-    <p>test test test test testtest</p>
     <div className="footer-social-links">
       <ul className="social-links-list">
         <li>
